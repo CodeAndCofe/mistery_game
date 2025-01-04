@@ -15,22 +15,50 @@ body
 {
 	display: grid;
 	grid-template-columns: repeat(16, 60px);
-	gap: 4px; 
+	gap: 0px; 
 }
 .ground
 {
-	background-color: brown;
+	background: url("Stones & Brick Textures/Brickwall4_Texture.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 	width: 60px;
 	height: 60px;
 }
 .path
 {
-	background-color: lightgray;
+	background: url("Stones & Brick Textures/Brick2_Texture.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 	width: 60px;
 	height: 60px;
 }
 .player{
-	background-color: rgb(60, 202, 28);
+	background: url("Mario svg , mario png.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 	width: 60px;
 	height: 60px;
+}
+.door
+{
+	background: url("—Pngtree—magic door stairs vector_15264118.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 60px;
+	height: 60px;
+}
+.win{
+	margin :20px;
+	display: none; 
+}
+.show
+{
+	background-color: red;
+	display: block; 
+
 }
